@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+   background-color:yellowgreen;
+  
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+ nav a{
+    text-decoration:none;
+    color: #333;
+ }
+ nav a:hover{
+   color: #e53935;
+ }
+ .header-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ }
+
+ .header-right input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius:4px ;
+ }
+
+ .order-btn{
+    padding: 0.5rem 1rem;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 5px;
+ }
+ .hero{
+    background-image: url(./images-02/love.jpg) center/cover no-repeat;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .hero-text{
+   background-color: rgb(0,0, 0);
+   padding: 2rem;
+   border-radius: 10px;
+   max-width: 700px;
+ }
+
+ .hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+
+ }
+ .hero p{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+
+ }
+
+
+ .hero .search-bar{
+    margin-top: 1rem;
+display: flex;
+justify-content: center;
+gap:0.5rem
+ }
+
+ .hero input{
+    padding: 0.5rem;
+    width: 300px;
+
+ }
+
+ .hero button{
+    padding: 0.5rem 1rem;
+    background-color: #e53935;
+    border:none;
+    padding: 0.6rem 1.2rem;
+    border: 4px;
+    cursor: pointer;
+    
+ }
+ .hero button:hover{
+   background-color: #d32f2f;
+ }
+
+ section h2{
+   font-size: 1.75rem;
+   margin-bottom: 1rem;
+ }
+ .featured,cuisines{
+padding: 2rem;
+ }
+
+ h2{
+    margin-bottom:1rem ;
+ }
+
+ .cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:1.5rem;
+ }
+ .card{
+    border:1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fafafa;
+    transition: transform 0.2s ease;
+
+ }
+ .card:hover{
+   transform: translateY(-5px);
+ }
+
+ .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+object-fit: cover;
+margin-bottom: 0.75rem;
+ }
+ .card h3{
+   font-size: 1.1rem;
+   margin-bottom: 0.5rem;
+ }
+ .card p{
+   font-size: 0.95rem;
+   color: #666;
+ }
+
+ .cuisine-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin:1rem 0 2rem;
+ }
+
+ .cuisine{
+    background: #f5f5f5;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1 1 150px;
+    text-align:center;
+    transition: backgroung-color 0.2s;
+ }
+ .cuisine:hover{
+   background-color: #e53935;
+   color: white;
+ }
+
+ footer{
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 0.95rem;
+    border-top: 1px solid #ddd;
+ }
+
+ .footer-links{
+    margin-bottom: 1rem;
+}
+.footer-links a{
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-icons a{
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}
